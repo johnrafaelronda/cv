@@ -1,0 +1,89 @@
+*{
+    font-weight: 500;
+    justify-content: center;border-radius: 10px;
+}
+
+header{
+    text-align: center;
+    margin: 10px 20px 20px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header h1{
+    font-size: 3em;
+    color: rgb(21, 48, 71);
+}
+
+header h1:hover{
+    color: aqua;
+}
+
+nav{
+    font-style: normal;
+    text-align: right;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 2.5em;
+    margin: 20px;
+    margin-right: 50px;
+}
+nav a:hover{
+    color: aqua;
+}
+
+#Home{
+    background-image: url("cvbg.png");
+    height: 865px;
+    margin: 0;
+}
+
+#Home h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    display: inline;
+    text-align: center;
+    color: white;
+    font-size: 2.5em;
+}
+    
+
+#Home img{
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-right: 100px;
+    margin-top: 200px;
+    width: 500px; 
+    box-shadow: rgb(10, 10, 10) 30px 30px 30px;
+    height: auto;
+}
+
+#About h1{
+    font-size: 3em;
+}
+
+#Skills figcaption{
+    text-align: center;
+    display: inline-block;
+    font-weight: 900;
+    font-size: 3em;
+    width: 5cm;
+    height: 3cm;
+
+}
+
+#Contact{
+    
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+}
+
